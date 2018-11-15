@@ -4,186 +4,210 @@
   <title>Specialized clinic | Health Service</title>
 </head>
 <body>
-  <!-- Header -->
-  <header class="page-header">
-    <div class="container">
-      <div class="header-introduction">
-        <img src="images/logo.jpg">
-        <h1 class="header-title"> Specialized clinic</h1>
-        <p>Physioterapy-Rehabilitation</p>
+  <header class="header-page">
+    <div class="header-top">
+      <div class="container">
+        <div class="header-introduction">
+          <a href="#"><img src="images/logo.jpg"></a>
+          <h1 class="header-title"> Specialized clinic</h1>
+          <p class="header-description">Physioterapy-Rehabilitation</p>
+        </div>
+        <div class="header-contact">
+          <img src="images/mobifone.png" alt="Cellphone icon">
+          <p class="header-contact-question">Question for the doctor? </p>
+          <span><a href="tel:05113941977" class="header-contact-phone">05113941 977</a></span>
+        </div>
       </div>
-      <div class="header-contact">
-        <p>Question for the doctor? <span>05113941&nbsp;977</span></p>
-      </div>
-      <nav class="page-nav">
-        <ul class="page-nav-list">
-          <li class="page-nav-item">Home</li>
-          <li class="page-nav-item">About Us</li>
-          <li class="page-nav-item">Health Servces</li>
-          <li class="page-nav-item">Regular Medicine</li>
-          <li class="page-nav-item">Set Calendar</li>
-          <li class="page-nav-item">Consult &amp; Contact</li>
+    </div>
+    <div class="header-bottom">
+      <div class="container">
+        <nav class="menu">
+          <ul class="menu-list">
+            <li class="menu-item"><a href="">Home</a></li>
+            <li class="menu-item"><a href="">About Us</a></li>
+            <li class="menu-item active"><a href="">Health Servces</a></li>
+            <li class="menu-item"><a href="">Regular Medicine</a></li>
+            <li class="menu-item"><a href="">Set Calendar</a></li>
+            <li class="menu-item"><a href="">Consult &amp; Contact</a></li>
+          </ul>
+        </nav>
+        <ul class="header-social">
+          <li class="header-social-facebook">
+            <a href="#"><img src='images/header-facebook.jpg' alt="Facebook logo"></a>
+          </li>
+          <li class="header-social-google+">
+            <a href="#"><img src='images/header-g+.jpg' alt="Google+ logo"></a>
+          </li>
+          <li class="header-social-youtube">
+            <a href="#"><img src='images/header-youtube.jpg' alt="Youtube logo"></a>
+          </li>
         </ul>
-      </nav>
-      <ul class="header-social">
-        <li class="header-social-facebook">
-          <img src='images/header-facebook.jpg' alt="Facebook logo"><a href="#"></a>
-        </li>
-        <li class="header-social-google+">
-          <img src='images/header-g+.jpg' alt="Google+ logo"><a href="#"></a>
-        </li>
-        <li class="header-social-youtube">
-          <img src='images/header-youtube.jpg' alt="Youtube logo"><a href="#"></a>
-        </li>
-      </ul>
+      </div>
     </div>
   </header>
-  <!-- Banner -->
-  <div class="banner">
+  <section class="banner">
     <img src="images/banner.png" alt="Banner">
     <div class="container">
       <ul class="breadcrum-list">
-        <li class="breadcrumb-item">Home</li><span>&nbsp;/&nbsp;</span>
-        <li class="breadcrumb-item">Health Services</li>
+        <li class="breadcrumb-item"><a href="">Home</a></li>
+        <li class="breadcrumb-item">/</li>
+        <li class="breadcrumb-item"><h2>Health Services</h2></li>
       </ul>
     </div>
-  </div>
-  <!-- Main content -->
-  <main class="page-main">
-    <aside class="sidebar-left">
-      <ul class="disease-by-age">
-        <li class="adults-disease">
-          <h3>Adults<span class="logo-minus">-</span></h3>
-          <ul class="diseases-list">
-            <li class="diseases-item">Neck-shoulder-hand pain</li>
-            <li class="diseases-item">Spinal pain</li>
-            <li class="diseases-item">Disc herniation</li>
-            <li class="diseases-item">Knee joint, hip joint</li>
-            <li class="diseases-item">Footsore,</li>
-            <li class="diseases-item">Diseases of the muscles</li>
-            <li class="diseases-item">Peripheral neuropathy</li>
-            <li class="diseases-item">Sequelae of stroke</li>
-            <li class="diseases-item">Traumatic sequelae</li>
+  </section>
+  <main class="main-page">
+    <div class="container">
+      <aside class="sidebar-left">
+        <section class="sidebar-left-top">
+          <ul class="category">
+            <li class="disease-by-age">
+              <h3>Adults<span class="logo-minus">-</span></h3>
+              <ul class="diseases-list">
+                <li class="diseases-item"><a href="">Neck-shoulder-hand pain</a></li>
+                <li class="diseases-item"><a href="">Spinal pain</a></li>
+                <li class="diseases-item"><a href="">Disc herniation</a></li>
+                <li class="diseases-item"><a href="">Knee joint, hip joint</a></li>
+                <li class="diseases-item"><a href="">Footsore</a></li>
+                <li class="diseases-item"><a href="">Diseases of the muscles</a></li>
+                <li class="diseases-item"><a href="">Peripheral neuropathy</a></li>
+                <li class="diseases-item"><a href="">Sequelae of stroke</a></li>
+                <li class="diseases-item"><a href="">Traumatic sequelae</a></li>
+              </ul>
+            </li>
+            <li class="disease-by-age">
+              <h3>Children<span class="logo-plus">+</span></h3>
+            </li>
           </ul>
+        </section>
+        <section class="form">
+          <h3 class="form-heading">Book Schedule</h3>
+          <form class="form-book" action="" method="POST">
+            <div class="form-book-input">
+              <input type="text" name="full-name" placeholder="Full name">
+            </div>
+            <div class="form-book-input">
+              <input type="text" name="address" placeholder="Address">
+            </div>
+            <div class="form-book-input">
+              <input type="text" name="phone" placeholder="Phone number">
+            </div>
+            <div class="form-book-input">
+              <input type="datetime" name="time" placeholder="Time">
+            </div>
+            <div class="form-book-input">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </section>
+      </aside>
+      <ul class="health-services-list">
+        <li class="health-services-item">
+          <a href=""><img src="images/heath-services-item-1.jpg" alt="Neck shoulder pain-1"></a>
+          <h4 class="health-services-item-title"><a href="">Neck shoulder pain</a></h4>
+          <p class="health-services-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+            consequuntur autem, inventore fugit omnis, esse tempora ipsum cum libero quo.</p>
+          <a href=""><img src="images/arrow-right.jpg" alt="arrow right"></a>
         </li>
-        <li class="children-disease">
-          <h3>Children<span class="logo-minus">-</span></h3>
-          <ul class="diseases-list">
-            <li class="diseases-item">Fever</li>
-            <li class="diseases-item">Anemia</li>
-            <li class="diseases-item">Injury</li>
-            <li class="diseases-item">Common Cold</li>
-            <li class="diseases-item">Chickenpox</li>
-          </ul>
+        <li class="health-services-item">
+          <a href=""><img src="images/heath-services-item-2.jpg" alt="Neck shoulder pain-2"></a>
+          <h4 class="health-services-item-title"><a href="">Neck shoulder pain</a></h4>
+          <p class="health-services-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+            consequuntur autem, inventore fugit omnis, esse tempora ipsum cum libero quo.</p>
+          <a href=""><img src="images/arrow-right.jpg" alt="arrow right"></a>
+        </li>
+        <li class="health-services-item">
+          <a href=""><img src="images/heath-services-item-3.jpg" alt="Neck shoulder pain-3"></a>
+          <h4 class="health-services-item-title"><a href="">Neck shoulder pain</a></h4>
+          <p class="health-services-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+            consequuntur autem, inventore fugit omnis, esse tempora ipsum cum libero quo.</p>
+          <a href=""><img src="images/arrow-right.jpg" alt="arrow right"></a>
+        </li>
+        <li class="health-services-item">
+          <a href=""><img src="images/heath-services-item-4.jpg" alt="Neck shoulder pain-4"></a>
+          <h4 class="health-services-item-title"><a href="">Neck shoulder pain</a></h4>
+          <p class="health-services-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+            consequuntur autem, inventore fugit omnis, esse tempora ipsum cum libero quo.</p>
+          <a href=""><img src="images/arrow-right.jpg" alt="arrow right"></a>
+        </li>
+        <li class="health-services-item">
+          <a href=""><img src="images/heath-services-item-5.jpg" alt="Slow say-1"></a>
+          <h4 class="health-services-item-title"><a href="">Slow say</a></h4>
+          <p class="health-services-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+            consequuntur autem, inventore fugit omnis, esse tempora ipsum cum libero quo.</p>
+          <a href=""><img src="images/arrow-right.jpg" alt="arrow right"></a>
+        </li>
+        <li class="health-services-item">
+          <a href=""><img src="images/heath-services-item-6.jpg" alt="Slow say-2"></a>
+          <h4 class="health-services-item-title"><a href="">Slow say</a></h4>
+          <p class="health-services-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+            consequuntur autem, inventore fugit omnis, esse tempora ipsum cum libero quo.</p>
+          <a href=""><img src="images/arrow-right.jpg" alt="arrow right"></a>
+        </li>
+        <li class="health-services-item">
+          <a href=""><img src="images/heath-services-item-7.jpg" alt="Slow say-3"></a>
+          <h4 class="health-services-item-title"><a href="">Slow say</a></h4>
+          <p class="health-services-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+            consequuntur autem, inventore fugit omnis, esse tempora ipsum cum libero quo.</p>
+          <a href=""><img src="images/arrow-right.jpg" alt="arrow right"></a>
+        </li>
+        <li class="health-services-item">
+          <a href=""><img src="images/heath-services-item-8.jpg" alt="Neck shoulder pain-5"></a>
+          <h4 class="health-services-item-title"><a href="">Neck shoulder pain</a></h4>
+          <p class="health-services-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+            consequuntur autem, inventore fugit omnis, esse tempora ipsum cum libero quo.</p>
+          <a href=""><img src="images/arrow-right.jpg" alt="arrow right"></a>
+        </li>
+        <li class="health-services-item">
+          <a href=""><img src="images/heath-services-item-9.jpg" alt="Neck shoulder pain-6"></a>
+          <h4 class="health-services-item-title"><a href="">Neck shoulder pain</a></h4>
+          <p class="health-services-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+            consequuntur autem, inventore fugit omnis, esse tempora ipsum cum libero quo.</p>
+          <a href=""><img src="images/arrow-right.jpg" alt="arrow right"></a>
         </li>
       </ul>
-      <div class="form">
-        <h2 class="form-heading"><b>Book Schedule</b></h2>
-        <form class="book-form">
-          <input class="book-input" type="text" name="full-name" id="full-name" placeholder="Full name">
-          <input class="book-input" type="text" name="address" id="address" placeholder="Address">
-          <input class="book-input" type="text" name="phone" id="phone" placeholder="Phone number">
-          <input class="book-input" type="date" name="time" id="time" placeholder="Time">
-          <input class="book-input" type="submit" name="submit" value="SEND">
-        </form>
-      </div>
-    </aside>
-    <ul class="health-services-list">
-      <li class="health-services-item">
-        <img src="images/heath-services-item-1.jpg" alt="Image-1">
-        <h2 class="health-services-item-title">Neck shoulder pain</h2>
-        <p class="health-services-item-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consequuntur autem, inventore fugit omnis, esse tempora ipsum cum libero quo.</p>
-        <img src="images/arrow-right.jpg" alt="arrow right">
-      </li>
-      <li class="health-services-item">
-        <img src="images/heath-services-item-2.jpg" alt="Image-2">
-        <h2 class="health-services-item-title">Neck shoulder pain</h2>
-        <p class="health-services-item-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consequuntur autem, inventore fugit omnis, esse tempora ipsum cum libero quo.</p>
-        <img src="images/arrow-right.jpg" alt="arrow right">
-      </li>
-      <li class="health-services-item">
-        <img src="images/heath-services-item-3.jpg" alt="Image-3">
-        <h2 class="health-services-item-title">Neck shoulder pain</h2>
-        <p class="health-services-item-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consequuntur autem, inventore fugit omnis, esse tempora ipsum cum libero quo.</p>
-        <img src="images/arrow-right.jpg" alt="arrow right">
-      </li>
-      <li class="health-services-item">
-        <img src="images/heath-services-item-4.jpg" alt="Image-4">
-        <h2 class="health-services-item-title">Neck shoulder pain</h2>
-        <p class="health-services-item-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consequuntur autem, inventore fugit omnis, esse tempora ipsum cum libero quo.</p>
-        <img src="images/arrow-right.jpg" alt="arrow right">
-      </li>
-      <li class="health-services-item">
-        <img src="images/heath-services-item-5.jpg" alt="Image-5">
-        <h2 class="health-services-item-title">Slow say</h2>
-        <p class="health-services-item-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consequuntur autem, inventore fugit omnis, esse tempora ipsum cum libero quo.</p>
-        <img src="images/arrow-right.jpg" alt="arrow right">
-      </li>
-      <li class="health-services-item">
-        <img src="images/heath-services-item-6.jpg" alt="Image-6">
-        <h2 class="health-services-item-title">Slow say</h2>
-        <p class="health-services-item-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consequuntur autem, inventore fugit omnis, esse tempora ipsum cum libero quo.</p>
-        <img src="images/arrow-right.jpg" alt="arrow right">
-      </li>
-      <li class="health-services-item">
-        <img src="images/heath-services-item-7.jpg" alt="Image-7">
-        <h2 class="health-services-item-title">Slow say</h2>
-        <p class="health-services-item-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consequuntur autem, inventore fugit omnis, esse tempora ipsum cum libero quo.</p>
-        <img src="images/arrow-right.jpg" alt="arrow right">
-      </li>
-      <li class="health-services-item">
-        <img src="images/heath-services-item-8.jpg" alt="Image-8">
-        <h2 class="health-services-item-title">Neck shoulder pain</h2>
-        <p class="health-services-item-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consequuntur
-          autem, inventore fugit omnis, esse tempora ipsum cum libero quo.</p>
-        <img src="images/arrow-right.jpg" alt="arrow right">
-      </li>
-      <li class="health-services-item">
-        <img src="images/heath-services-item-9.jpg" alt="Image-9">
-        <h2 class="health-services-item-title">Neck shoulder pain</h2>
-        <p class="health-services-item-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consequuntur
-          autem, inventore fugit omnis, esse tempora ipsum cum libero quo.</p>
-        <img src="images/arrow-right.jpg" alt="arrow right">
-      </li>
-    </ul>
+    </div>
   </main>
-  <!-- Footer -->
-  <footer class="page-footer">
-    <div class="container">
-      <ul class="footer-content-list"></ul>
-        <li class="footer-content-item">
-          <h2 class="footer-content-item-heading">About Us</h2>
-          <ul class="footer-sub-list">
-            <li class="footer-sub-item">Genaeral Introduction</li>
-            <li class="footer-sub-item">Human</li>
-            <li class="footer-sub-item">Facilites And Facilites..</li>
-          </ul>
-        </li>
-        <li class="footer-content-item">
-          <h2 class="footer-content-item-heading">Support</h2>
-          <ul class="content-sub-list">
-            <li class="content-sub-item">Health Counseling</li>
-            <li class="content-sub-item">Regular Medicine</li>
-            <li class="content-sub-item">Schedule Appointments</li>
-          </ul>
-        </li>
-        <li class="footer-content-item">
-          <h2 class="footer-content-item-heading">Social Connection</h2>
-          <ul class="content-sub-list">
-            <li class="content-sub-item">
-              <img src="images/footer-facebook.jpg" alt="Facebook logo"><span class="facebook-logo">Facebook</span>
-            </li>
-            <li class="content-sub-item">
-              <img src="images/footer-g+.jpg" alt="Google+ logo"><span class="google-logo">Google+</span>
-            </li>
-            <li class="content-sub-item">
-              <img src="images/footer-youtube.jpg" alt="Youtube logo"><span class="youtube-logo">Youtube</span>
-            </li>
-          </ul>
-        </li>
-      <div class="designer">
+  <footer class="footer-page">
+    <div class="footer-top">
+      <div class="container">
+        <ul class="footer-info-list">
+          <li class="footer-info-item">
+            <h3 class="footer-info-item-heading">About Us</h3>
+            <ul class="footer-info-sub-list">
+              <li class="footer-info-sub-item"><a href="">Genaeral Introduction</a></li>
+              <li class="footer-info-sub-item"><a href="">Human</a></li>
+              <li class="footer-info-sub-item"><a href="">Facilites And Facilites</a></li>
+            </ul>
+          </li>
+          <li class="footer-info-item">
+            <h3 class="footer-info-item-heading">Support</h3>
+            <ul class="footer-info-sub-list">
+              <li class="footer-info-sub-item"><a href="">Health Counseling</a></li>
+              <li class="footer-info-sub-item"><a href="">Regular Medicine</a></li>
+              <li class="footer-info-sub-item"><a href="">Schedule Appointments</a></li>
+            </ul>
+          </li>
+          <li class="footer-info-item">
+            <h3 class="footer-info-item-heading">Social Connection</h3>
+            <ul class="footer-info-sub-list">
+              <li class="footer-info-sub-item">
+                <a href="" class="facebook-logo"><img src="images/footer-facebook.jpg" alt="Facebook logo">Facebook</a>
+              </li>
+              <li class="footer-info-sub-item">
+                <a href="" class="google-logo"><img src="images/footer-g+.jpg" alt="Google+ logo">Google+</a>
+              </li>
+              <li class="footer-info-sub-item">
+                <a href="" class="youtube-logo"><img src="images/footer-youtube.jpg" alt="Youtube logo">Youtube</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
         <p class="footer-bottom-left">&copy;2018&nbsp;-&nbsp;Copyright of specialized clinic</p>
-        <p class="footer-bottom-right">Design By&nbsp;<span class="designer-link">DD.COM</span></p>
+        <p class="footer-bottom-right">Design By&nbsp;<a href="" class="footer-bottom-link">DD.COM</a></p>
       </div>
     </div>
   </footer>
