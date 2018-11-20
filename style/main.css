@@ -1,100 +1,60 @@
-/* General */
-body {
-  font-size: 14px;
-  height: 100%;
-  width: 100%;
-}
-h1, h2, h3 {
- text-transform: uppercase;
- font-weight: bold;
-}
-a {
-  text-decoration: none;
-}
-.menu-toggle {
-  display: none;
-}
-.menu-toggle::before {
-  content: '';
-}
-.container {
-  box-sizing: border-box;
-  max-width: 1270px;
-  width: 100%;
-  min-width: 320px;
-  margin: 0 auto;
-  padding: 0 50px;
-}
-.container::after  {
-  clear: both;
-  display: block;
-  content: '';
-}
-
-.clearfix::after {
-  clear: both;
-  display: block;
-  content: '';
-}
-
 /* Header */
+/* Header top left */
 .header-top {
   padding-bottom: 10px;
 }
-.logo-link {
-  float: left;
-  width: 85px;
-}
 .header-introduction {
   margin-top: .75em;
-  line-height: 1.5rem;
-  font-weight: bold;
+  line-height: 16px;
+  float: left;
+}
+.logo-link {
+  float: left;
+}
+.header-intro-content {
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 16px;
 }
 .header-title {
-  color: black;
+  color: #0C0B0B;
   font-size: 1rem;
-  font-weight: bold;
-  text-transform: uppercase;
+  padding-bottom: 10px;
 }
 .header-description {
   text-transform: capitalize;
+  font-size: 18px;
 }
+/* Header top right */
 .header-contact {
+  clear: right;
   float: right;
-  width: 300px;
+  padding-top: 32px;
+  font-weight: bold;
 }
 .header-contact-image {
   float: left;
-  padding-right: 12px;
-  position: relative;
-  bottom: 45px;
+  
 }
 .header-contact-question {
-  position: relative;
-  bottom: 38px;
-}
-span .header-contact-link {
-  float: left;
-  padding-left: 150px;
-  position: relative;
-  bottom: 50px;
-  text-decoration: none;
-}
-.question {
-  font-family: 'Arial';
+  display: inline-block;
+  padding: 14px 8px;
   font-style: italic;
-  font-size: .85rem;
 }
-.number-contact {
-  font-family: 'Arial';
-  font-style: normal;
-  font-weight: bold;
-  font-size: .95rem;
-  color: #4cc1fc;
+.header-contact-phone {
+  display: inline-block;
+  font-size: 18px;
+}
+ .header-contact-link {
+    color: #4cc1fc;
+}
+/* Menu */
+.header-bottom {
+  border-top: 1px solid #e9e9e9;
 }
 .menu-item {
   padding:  1rem;
-  line-height: 1rem;
+  line-height: 2rem;
   float: left;
   text-transform: uppercase;
   border-left: 1px solid #e9e9e9;
@@ -102,8 +62,10 @@ span .header-contact-link {
   font-size: .75rem;
 }
 .menu-link {
-  text-decoration: none;
-  color: gray;
+  color: #8e8e8e;
+}
+.active {
+  color: #4cc1fc;
 }
 .menu-item:first-child {
   border-left: none;
@@ -111,148 +73,171 @@ span .header-contact-link {
 .header-social-list {
   float: right;
   line-height: 3rem;
-  padding-bottom: 10px;
+  padding-top: 16px;
 }
 .header-social-item {
   float: left;
   padding-left: 15px;
 }
+/* Banner */
 .banner {
-  height: 8rem;
+  height: 156px;
   background-repeat: no-repeat;
   background: url('../images/banner.png');
 }
 .breadcrum-list {
-  padding-top: 3.25rem;
+  padding-top: 75px;
+  text-transform: uppercase;
+  font-family: 'Arial';
 }
 .breadcrumb-item {
   float: left;
-  margin-right: .75rem;
   color: #000;
+  padding-right: .75rem;
 }
-.breadcrumb-item:first-child:after {
+.breadcrumb-item::after {
   content: '/';
-  margin-left: .75rem;
+  padding-left: .75rem;
+}
+.breadcrumb-item:last-child:after {
+  content: '';
 }
 .breadcrumb-link {
-  text-decoration: none;
   color: #000;
 }
-
+/* Main page */
 .main-page {
-  padding-top: 3rem;
+  padding-top: 40px;
   box-sizing: border-box;
 }
+/* Aside bar */
 .sidebar-left {
   box-sizing: border-box;
   float: left;
-  width: 25%;
+  padding-top: 32px;
 }
-/* .disease-by-age {
-  position: relative;
-  height: 20px;
+.sidebar-left-top {
+  width: 295px;
+  padding-bottom: 40px;
+}
+.disease-by-age h3 {
   padding-left: 1rem;
-  background-color: #92989bb6;
+  background-color: #d9e4e9;
+}
+.age-title {
   font-size: .75rem;
-  font-weight: bold;
-  text-transform: uppercase;
-} */
+  padding: 16px 24px;
+} 
+.logo-minus {
+  font-size: 25px;
+  padding: 16px 24px 16px 200px;
+} 
+.logo-plus {
+  font-size: 20px;
+  padding: 16px 24px 16px 180px;
+} 
 .diseases-list {
-  padding:  1rem 0 1rem 1rem;
+  padding:  1rem 0 1rem 30px;
   line-height: 1.5rem;
   font-size: .75rem;
+  list-style-type: disc;
 }
 .diseases-link {
-  text-decoration: none;
   color: #000;
 }
-.diseases-item::before {
-  content: "";
-  margin-right: 1rem;
-  color: #868e92;
-  font-size: 1rem;
-}
+/* Form */
 .form {
   padding-top: 10px;
-  background-color: 
+  background-color:#d9e4e9; 
+  height: 360px;
+  max-width: 295px;
+  width: 100%;
+  ;
+}
+.form-heading {
+  padding: 20px 20px;
+}
+.form-heading::after {
+  content: '';
+  display: block;
+  border: 1px solid #4cc1fc;
+  width: 66px;
+  position: relative;
+  top: 22px;
 }
 .form-book {
   box-sizing: border-box;
-  width: 100%;
-  height: 2.25rem;
-  padding-left: 1rem;
-  margin-bottom: 1rem;
+  padding: 18px 20px;
   border: none;
 }
-.book-input::placeholder {
-  color: black;
+.form-book-input {
+  padding-bottom: 16px;
 }
-.submit-block {
-  text-align: center;
+.form-book-input input{
+  width: 100%;
+  color: black;
+  height: 38px;
+}
+input::placeholder {
+  padding-left: 12px;
 }
 .form-book-submit {
-  width: 50%;
-  padding: 1rem;
+  padding: 0 70px 10px 70px;
+}
+button {
+  width: 125px;
+  height: 40px;
   background-color: #4bbc56;
   color: white;
   font-family: 'UTM Avo';
   font-size: 1rem;
-  font-weight: bolder;
+  font-weight: bold;
   text-transform: uppercase;
   border: 0;
 }
+/* Main content */
 .health-services-list {
   float: right;
-  width: calc(100% - 25%);
+  max-width: calc(100% - 25%);
+  padding-bottom: 18px;
 }
 .health-services-item {
-  box-sizing: border-box;
-  position: relative;
-  width: calc( 100% / 3);
   float: left;
-  padding-right: 1rem;
-  margin-bottom: 1rem;
-}
-.health-services-content {
-  border: 1px solid #ebebeb;
-}
-
-.health-services-item-image img{
+  height: 320px;
+  max-width: 280px;
   width: 100%;
+  border: 1px solid #ebebeb;
+  margin: 0 0 20px 20px;
 }
-.health-services-item-heading {
-  padding: 1rem;
-  color: black;
+.health-services-item img{
+  width: 280px;
+  height: auto;
 }
-.health-services-item-link {
-  text-decoration: none;
-  display: block;
+.health-services-item-title {
+  padding: 18px 22px;
 }
-.health-services-item-heading {
-  font-family: 'Arial';
-  font-weight: bold;
-  font-size: .85rem;
-  color: black;
-  text-transform: uppercase;
-  text-decoration: none;
+.health-title-link {
+  color: #0C0B0B;
+} 
+.health-services-item-description {
+  padding: 0 22px 40px;
+} 
+.arrow-right-link {
+  clear: right;
+  float: right;
+  width: 15px;
+  height: 15px;
+  background: url('../images/arrow-right.jpg') center no-repeat;
+  position: relative;
+  bottom: 15px;
 }
-.health-services-item-text {
-  padding: 0 1rem 1rem;
-  font-family: 'Arial';
-  font-weight: normal;
-  font-size: .75rem;;
-  line-height: 1rem;
-  color: black;
-}
-.arrow-right {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  padding: .45rem;
-  background-repeat: no-repeat;
-}
+/* Footer */
 .footer-page {
   background-color: #62c6f8;
+}
+.footer-top {
+  padding-top: 50px;
+  padding-bottom: 12px;
 }
 .footer-info-item {
   box-sizing: border-box;
@@ -260,28 +245,66 @@ span .header-contact-link {
   width: calc(100% / 3);
   padding-top: 10px;
 }
+.footer-info-item-heading {
+  padding-bottom: 26px;
+  font-size: 20px;
+}
+.footer-info-sub-list {
+  list-style-type: disc;
+  padding-left: 16px;
+}
 .footer-info-sub-item {
-  padding-top: 16px;
+  padding-bottom: 26px;
 }
 .footer-info-link {
- text-decoration: none; 
- color: white;
  font-weight: bold;
+ text-transform: uppercase;
+ font-weight: normal;
+ color: #fff;
+}
+.footer-facebook-link::before {
+  content: url(../images/footer-facebook.png);
+  padding-right: 8px;
+  position: relative;
+  top: 4px;
+}
+.footer-google-link::before {
+  content: url(../images/footer-google+.png);
+  padding-right: 8px;
+  position: relative;
+  top: 4px;
+}
+.footer-youtube-link::before {
+  content: url(../images/footer-youtube.png);  
+  padding-right: 8px;
+  position: relative;
+  top: 4px;
+}
+.footer-social-sub-list {
+  padding-top: 28px;
+  padding-left: -10px;
+}
+.footer-social-sub-item {
+  padding-bottom: 4px;
 }
 .footer-bottom {
-  padding-top: 1rem;
-  height: 2rem;
-  color: white;
+  border: 1px solid #fff;
+  height: 60px;
 }
-.footer-bottom-left{
+.footer-bottom-left {
   float: left;
   font-family: 'Arial';
-  font-size: .75rem;
+  text-transform: uppercase;
+  padding: 25px 0;
 }
 .footer-bottom-right {
   font-family: 'Arial';
-  font-size: .75rem;
   float: right;
+  text-transform: uppercase;
+  padding: 25px 0;
+}
+.footer-bottom-link {
+  color: #86ffbf;
 }
 
 
