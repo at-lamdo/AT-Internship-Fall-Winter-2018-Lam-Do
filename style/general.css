@@ -16,9 +16,9 @@ a {
 }
 .container {
     box-sizing: border-box;
-    max-width: 1240px;
+    max-width: 80%;
     width: 100%;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     margin: 0 auto;
   }
   .container::after  {
