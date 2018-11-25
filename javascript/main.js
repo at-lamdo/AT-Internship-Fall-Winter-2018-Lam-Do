@@ -24,6 +24,7 @@ function divisibleBy3(a = '') {
     }
         return b;
 }
+
 //Exercise 4
 function divisibleBy6(a = '') {
     var c = divisibleBy3(a);
