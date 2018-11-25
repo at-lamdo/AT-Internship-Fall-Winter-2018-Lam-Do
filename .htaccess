@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "Password Required"
+AuthUserFile "/var/www/demo/.htpasswd"
+Require valid-user
+ErrorDocument 401 /401.php
+ErrorDocument 404 /404.php
+AddHandler server-parsed .html
