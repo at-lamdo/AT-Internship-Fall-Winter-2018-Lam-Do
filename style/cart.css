@@ -1,0 +1,72 @@
+/* ----------------Header------------ */
+header {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.logo img { 
+    float: left;
+    max-width: 100px;
+}
+.cart {
+    clear: right;
+    float: right;
+    margin-top: 30px;
+}
+.cart img {
+    width: 50px;
+}
+.cart span {
+    position: relative;
+    bottom: 10px;
+}
+/* -----------------Main---------------- */
+main {
+    margin: 10px auto;
+}
+h1 {
+    font-size: 50px;
+    margin: 10px 25px;
+    color: #808080;
+}
+.product-sub-list {
+    float: left;
+    max-width: calc(100% / 3 - 4%);
+    width: 100%;
+    margin: 10px 0 10px 32px;
+    border: 1px solid #808080;
+}
+.product-sub-list li img {
+    width: 100%;
+}
+.product-sub-list li {
+    padding: 8px 32px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+li .product-description  {
+    text-align: justify;
+    text-transform: none;
+    font-weight: normal;
+    height: 100px;
+}
+.product-sub-list li button {
+    padding: 8px 32px;
+    background-color: #4bbc56;
+    color: #fff;
+    border: 0;
+}
+/* -------------------Footer------------- */
+footer {
+    margin: 10px auto;
+    padding-top: 10px;
+    border-top: 1px solid #000;
+}
+.copyright {
+    float: left;
+}
+.design {
+    clear: right;
+    float: right;
+}
