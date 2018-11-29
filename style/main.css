@@ -1,0 +1,387 @@
+/* Header */
+/* Header top left */
+.header-top {
+  padding-bottom: 10px;
+}
+.header-introduction {
+  margin-top: .75em;
+  line-height: 16px;
+  float: left;
+}
+.logo-link {
+  float: left;
+}
+.header-intro-content {
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 16px;
+}
+.header-title {
+  color: #0C0B0B;
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+.header-description {
+  text-transform: capitalize;
+  font-size: 18px;
+}
+/* Header top right */
+.header-contact {
+  clear: right;
+  float: right;
+  padding-top: 32px;
+  font-weight: bold;
+}
+.header-contact-image {
+  float: left;
+  
+}
+.header-contact-question {
+  display: inline-block;
+  padding: 14px 8px;
+  font-style: italic;
+}
+.header-contact-phone {
+  display: inline-block;
+  font-size: 18px;
+}
+ .header-contact-link {
+    color: #4cc1fc;
+}
+/* Menu */
+.header-bottom {
+  border-top: 1px solid #e9e9e9;
+  width: 100%;
+}
+/* .menu-list {
+  max-width: 65%;
+} */
+.menu-item {
+  padding: 10px;
+  line-height: 2rem;
+  float: left;
+  text-transform: uppercase;
+  border-left: 1px solid #e9e9e9;
+  font-family: 'Arial';
+  font-size: .75rem;
+}
+.menu-link {
+  color: #8e8e8e;
+}
+.active {
+  color: #4cc1fc;
+}
+.menu-item:first-child {
+  border-left: none;
+}
+.header-social-list {
+  clear: right;
+  float: right;
+  margin-top: 10px;
+  /* max-width: 35%; */
+}
+.header-social-item {
+  float: left;
+  padding-left: 15px;
+}
+/* Banner */
+.banner {
+  height: 156px;
+  background-repeat: no-repeat;
+  background: url('../images/banner.png');
+}
+.breadcrum-list {
+  padding-top: 75px;
+  text-transform: uppercase;
+  font-family: 'Arial';
+}
+.breadcrumb-item {
+  float: left;
+  color: #000;
+  padding-right: .75rem;
+}
+.breadcrumb-item::after {
+  content: '/';
+  padding-left: .75rem;
+}
+.breadcrumb-item:last-child:after {
+  content: '';
+}
+.breadcrumb-link {
+  color: #000;
+}
+/* Main page */
+.main-page {
+  margin-top: 40px;
+  box-sizing: border-box;
+  width: 100%;
+}
+/* Aside bar */
+.sidebar-left {
+  width: 25%;
+  box-sizing: border-box;
+  float: left;
+}
+.sidebar-left-top {
+  width: 100%;
+  padding-bottom: 40px;
+}
+.disease-by-age h3 {
+  padding-left: 1rem;
+  background-color: #d9e4e9;
+}
+.age-title {
+  font-size: .75rem;
+  padding: 16px 24px;
+  position: relative;
+  color: #000;
+} 
+.age-title::after {
+  content: "-";
+  float: right;
+  font-size: 30px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+} 
+.diseases-list {
+  padding:  1rem 0 1rem 30px;
+  line-height: 1.5rem;
+  font-size: .75rem;
+  list-style-type: disc;
+}
+.diseases-link {
+  color: #000;
+}
+/* Form */
+.form {
+  padding-top: 10px;
+  background-color:#d9e4e9; 
+  height: 360px;
+  max-width: 295px;
+  width: 100%;
+  ;
+}
+.form-heading {
+  padding: 20px 20px;
+}
+.form-heading::after {
+  content: '';
+  display: block;
+  border: 1px solid #4cc1fc;
+  width: 66px;
+  position: relative;
+  top: 22px;
+}
+.form-book {
+  box-sizing: border-box;
+  padding: 18px 20px;
+  border: none;
+}
+.form-book-input {
+  padding-bottom: 16px;
+}
+.form-book-input input{
+  width: 100%;
+  color: black;
+  height: 38px;
+}
+input::placeholder {
+  padding-left: 12px;
+}
+.form-book-submit {
+  padding: 0 50px 10px 50px;
+  position: relative;
+}
+button {
+  max-width: 125px;
+  width: 100%;
+  height: 40px;
+  background-color: #4bbc56;
+  color: white;
+  font-family: 'UTM Avo';
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 0;
+  position: absolute;
+}
+/* Main content */
+.health-services-list {
+  float: right;
+  max-width: calc(100% - 25%);
+}
+.health-services-item {
+  float: left;
+  height: 320px;
+  width: 100%;
+  max-width: calc( 100% / 3 - 3%);
+  border: 1px solid #ebebeb;
+  margin: 0 0 20px 20px;
+  position: relative;
+}
+.health-services-item img{
+  width: 100%;
+  height: auto;
+}
+.health-services-item-title {
+  padding: 18px 22px;
+}
+.health-title-link {
+  color: #0C0B0B;
+} 
+.health-services-item-description {
+  padding: 0 22px 40px;
+} 
+.arrow-right-link {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  background: url('../images/arrow-right.jpg') center no-repeat;
+  
+}
+/* Footer */
+.footer-page {
+  background-color: #62c6f8;
+}
+.footer-top {
+  padding-top: 50px;
+  padding-bottom: 12px;
+}
+.footer-info-item {
+  box-sizing: border-box;
+  float: left;
+  width: calc(100% / 3);
+  padding-top: 10px;
+}
+.footer-info-item-heading {
+  padding-bottom: 26px;
+  font-size: 20px;
+}
+.footer-info-sub-list {
+  list-style-type: disc;
+  padding-left: 16px;
+}
+.footer-info-sub-item {
+  padding-bottom: 26px;
+}
+.footer-info-link {
+ font-weight: bold;
+ text-transform: uppercase;
+ font-weight: normal;
+ color: #fff;
+}
+.footer-facebook-link::before {
+  content: url(../images/footer-facebook.png);
+  padding-right: 8px;
+  position: relative;
+  top: 4px;
+}
+.footer-google-link::before {
+  content: url(../images/footer-google+.png);
+  padding-right: 8px;
+  position: relative;
+  top: 4px;
+}
+.footer-youtube-link::before {
+  content: url(../images/footer-youtube.png);  
+  padding-right: 8px;
+  position: relative;
+  top: 4px;
+}
+.footer-social-sub-list {
+  position: relative;
+  top: -10px;
+  padding-left: -10px;
+}
+.footer-social-sub-item {
+  padding-bottom: 4px;
+}
+.footer-bottom {
+  border: 1px solid #fff;
+  height: 60px;
+}
+.footer-bottom-left {
+  float: left;
+  font-family: 'Arial';
+  text-transform: uppercase;
+  padding: 25px 0;
+}
+.footer-bottom-right {
+  font-family: 'Arial';
+  float: right;
+  text-transform: uppercase;
+  padding: 25px 0;
+}
+.footer-bottom-link {
+  color: #86ffbf;
+}
+/* Response Web with media query */
+@media only screen and (max-width: 1023px) {
+  /* .menu-list {
+    max-width: 60%;
+  }  
+  .menu-item {
+    max-width: calc(100% - 2%);
+  } */
+  .header-social-list {
+    max-width: 40%;
+  }
+  .sidebar-left {
+    width: calc(100% / 3);
+  }
+  .health-services-list {
+    max-width: calc(100% - 100% / 3);
+  }
+  .health-services-item {
+    max-width: calc( 100% / 2 - 6%);
+    width: 100%;
+    margin: 0 0 25px 28px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .sidebar-left {
+    width: 50%;
+  }
+  .health-services-list {
+    width: 50%;
+  }
+  .health-services-item {
+    max-width: 100%;
+    /* margin: 0 0 25px 28px; */
+  }
+}
+@media only screen and (max-width: 599px) {
+  .health-services-list {
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+  }
+  .health-services-item {
+    padding-left: 0;
+    width: 100%;
+  }
+  .addition-content-item {
+    width: 100%;
+    float: none;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .category {
+    padding-right: 0;
+  }
+}
+@media only screen and (max-width: 399px) {
+  .header-introduce, .question {
+    text-align: center;
+    line-height: 1.5rem;
+    width: 100%;
+  }
+  .header-introduce-heading {
+    margin-top: 0;
+    display: inline-block;
+    float: none;
+  }
+}
