@@ -23,11 +23,24 @@
     </header>
     <main>
         <div class="container">
-            <h1>Latest Product</h1>
-            <ul class="product-list">
-                <li class="product-item" id="product-item">
-                </li>
-            </ul>
+            <h1>Shopping Cart</h1>
+            <table class="table">
+                <thead class="table-heading">
+                  <tr>
+                    <th class="product-theading">Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Remove</th>
+                  </tr>
+                </thead>
+                <tbody id="table-body"></tbody>
+                <tfoot>
+                  <tr class="count-total">
+                    <td >Total Price</td>
+                    <td id="total"></td>
+                  </tr> 
+                </tfoot>
+            </table>
         </div>
     </main>
     <footer>
@@ -38,5 +51,5 @@
     </footer>
 </body>
     <script type="text/javascript" src="javascript/data.js"></script>
-    <script type="text/javascript" src="javascript/index.js"></script>
+    <script type="text/javascript" src="javascript/cart.js"></script>
 </html>
